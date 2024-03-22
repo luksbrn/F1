@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Betting Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="race-track">
+        </div>
+        <div id="controls">
+            <input type="number" id="bet-amount" min="5" placeholder="Enter bet amount">
+            <select id="driver-select">
+                <option value="1">Driver 1</option>
+                <option value="2">Driver 2</option>
+                <option value="3">Driver 3</option>
+                <option value="4">Driver 4</option>
+                <option value="5">Driver 5</option>
+            </select>
+            <div id="balance-info">
+                <p>Balance: <span id="balance">R$100</span></p>
+                <p>Profit: <span id="profit">R$0</span></p>
+            </div>
+            <button id="place-bet">Place Bet</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
