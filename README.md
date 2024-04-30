@@ -1,4 +1,4 @@
 Integrantes: 
 
-Lucas Ashikaga Bernini
+Lucas Ashikaga Bernini, 
 Cristhian Markos Pusca
